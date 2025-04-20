@@ -1,0 +1,19 @@
+[
+    {
+        "comment": "strategy_name must match the actual class name for a loaded py module",
+        "strategy_name" : "CopyTradeStrategy",
+        "strategy_title" : "Copy Trade",
+        "accounts" : ["4EsrEtvrEbZbVVT6sJkt6jTMMpq5MbRNc6GEMSfZL4Aq"],
+        "jito_tip": 0,
+        "amount_in": 0.001,
+        "slippage": 50,
+        "min_payer_buy": 0.00001,
+        "sell_trigger_percent": -20,
+        "priority_fee": 0.003,
+        "limit_orders" : [{"trigger_at_percent": 1, "allocation_percent": 100}],
+        "stop_loss_orders" : [{"trigger_at_percent": -80, "allocation_percent": 100}],
+        "pubkeys" : [{"pubkey": "wallet key goes here"}           
+                    ],      
+        "key_encryption": "None" 
+    }
+]

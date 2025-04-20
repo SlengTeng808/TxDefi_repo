@@ -1,0 +1,16 @@
+[
+    {
+        "comment": "strategy_name must match the actual class name for a loaded py module",
+        "strategy_name" : "NewLaunchStrategy",
+        "strategy_title" : "Perform a risk assessed snipes on new tokens",
+        "amms": ["PUMPFUN"],
+        "slippage": 50,
+        "priority_fee": 0.0004,
+        "limit_orders" : [{"trigger_at_percent": 50, "allocation_percent": 100}],
+        "stop_loss_orders" : [{"trigger_at_percent": -80, "allocation_percent": 100}],
+        "pubkeys" : [ 
+            {"pubkey": "wallet key goes here", "amount_in": 0.001}
+            ],      
+        "key_encryption": "None" 
+    }
+]

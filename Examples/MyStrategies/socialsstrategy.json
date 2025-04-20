@@ -1,0 +1,17 @@
+[
+    {
+        "comment": "strategy_name must match the actual class name for a loaded py module",
+        "strategy_name" : "SocialCallsStrategy",
+        "strategy_title" : "Social Calls",
+        "snipe_tokens" : [],
+        "jito_tip": 0,
+        "slippage": 50,
+        "priority_fee": 0.003,
+        "limit_orders" : [{"trigger_at_percent": 1, "allocation_percent": 100}],
+        "stop_loss_orders" : [{"trigger_at_percent": -80, "allocation_percent": 100}],
+        "pubkeys" : [{"pubkey": "wallet key goes here", 
+                        "amount_in": 0.01}           
+            ],      
+        "key_encryption": "None" 
+    }
+]

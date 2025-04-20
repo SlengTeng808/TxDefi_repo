@@ -1,0 +1,19 @@
+[
+    {
+        "comment": "strategy_name must match the actual class name for a loaded py module",
+        "strategy_name" : "BundleStrategy",
+        "strategy_title" : "Bundle Strategy",
+        "token_address" : "Giqd62VVBisA3xpw5huKEzXi1jVtpxvsAMM4LPQz3j84",
+        "jito_tip": 0.001,
+        "slippage": 20,
+        "priority_fee": 0.003,
+        "limit_orders" : [{"trigger_at_percent": 1, "allocation_percent": 100}],
+        "stop_loss_orders" : [{"trigger_at_percent": -80, "allocation_percent": 100}],
+        "pubkeys" : [{"pubkey": "1st key", 
+                        "amount_in": 0.005},
+                     {"pubkey": "2nd key and so forth", 
+                        "amount_in": 0.001}           
+            ],      
+        "key_encryption": "None" 
+    }
+]

@@ -1,0 +1,42 @@
+Metadata-Version: 2.3
+Name: txdefi
+Version: 1.0.8
+Summary: Tx Defi Framework for building crypto trading software
+License: MIT
+Keywords: solana,sdk,blockchain,tools
+Author: software@cryptometagm.xyz
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: Flask (>=3.1.0)
+Requires-Dist: Pypubsub (>=4.0.3)
+Requires-Dist: Telethon (>=1.38.1)
+Requires-Dist: anchorpy (>=0.20.1)
+Requires-Dist: audioop-lts (>=0.2.1)
+Requires-Dist: base58 (>=2.1.1)
+Requires-Dist: customtkinter (>=5.2.2)
+Requires-Dist: discord.py (>=2.4.0)
+Requires-Dist: grpcio (>=1.71.0)
+Requires-Dist: grpcio-tools (>=1.71.0)
+Requires-Dist: jsonrpcclient (>=4.0.3)
+Requires-Dist: keyring (>=25.6.0)
+Requires-Dist: numpy (>=1.26.4)
+Requires-Dist: oauthlib (>=3.2.2)
+Requires-Dist: pandas (>=2.2.3)
+Requires-Dist: pillow (>=10.3.0)
+Requires-Dist: pycryptodome (>=3.22.0)
+Requires-Dist: pygame (>=2.6.1)
+Requires-Dist: pynacl (>=1.5.0)
+Requires-Dist: python-dotenv (>=1.0.1)
+Requires-Dist: regex (>=2024.11.6)
+Requires-Dist: requests (>=2.32.2)
+Requires-Dist: solana (==0.35.1)
+Requires-Dist: solders (==0.21.0)
+Requires-Dist: windows-curses (>=2.4.1) ; sys_platform == "win32"
+Description-Content-Type: text/markdown
+
+# TxDefi
+Tx Defi Framework for building crypto trading software
+

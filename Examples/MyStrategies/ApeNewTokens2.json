@@ -1,0 +1,19 @@
+[
+    {
+        "comment": "strategy_name must match the actual class name for a loaded py module",
+        "strategy_name": "ApingNewTokens",
+        "strategy_title": "A Strategy",
+        "amms": [
+            "PUMPFUN"
+        ],
+        "banned_words": "word  1, word 2",
+        "amount_in": 0.05,
+        "target_pnl": 10,
+        "slippage": 30,
+        "priority_fee": 0.0002,
+        "jito_tip": 0.0,
+        "confirm_transaction": "True",
+        "pubkeys": [],
+        "key_encryption": "AES"
+    }
+]
